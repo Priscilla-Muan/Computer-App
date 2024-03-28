@@ -1,0 +1,3321 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<title>Section 10| Digital Interface</title>
+<link rel=File-List href="section10_files/filelist.xml">
+<link rel=dataStoreItem href="section10_files/item0001.xml"
+target="section10_files/props002.xml">
+<link rel=themeData href="section10_files/themedata.thmx">
+<link rel=colorSchemeMapping href="section10_files/colorschememapping.xml">
+
+<style>
+*{
+	margin-left: 15px;
+}
+.button{
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+@font-face
+	{font-family:"Yu Gothic Light";
+	panose-1:2 11 3 0 0 0 0 0 0 0;
+	mso-font-alt:"\6E38\30B4\30B7\30C3\30AF Light";
+	mso-font-charset:128;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 717749759 22 0 131231 0;}
+@font-face
+	{font-family:"Aptos Display";
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:536871559 3 0 0 415 0;}
+@font-face
+	{font-family:"Myanmar Text";
+	panose-1:2 11 5 2 4 2 4 2 2 3;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483645 0 1024 0 1 0;}
+@font-face
+	{font-family:Aptos;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:536871559 3 0 0 415 0;}
+@font-face
+	{font-family:"\@Yu Gothic Light";
+	mso-font-charset:128;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 717749759 22 0 131231 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Aptos;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+h1
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 1 Char";
+	mso-style-next:Normal;
+	margin-top:.25in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	line-height:107%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:20.0pt;
+	font-family:"Aptos Display",sans-serif;
+	mso-ascii-font-family:"Aptos Display";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Yu Gothic Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Aptos Display";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:major-bidi;
+	color:#0F4761;
+	mso-themecolor:accent1;
+	mso-themeshade:191;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:normal;}
+h2
+	{mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 2 Char";
+	mso-style-next:Normal;
+	margin-top:8.0pt;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	line-height:107%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:16.0pt;
+	font-family:"Aptos Display",sans-serif;
+	mso-ascii-font-family:"Aptos Display";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Yu Gothic Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Aptos Display";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:major-bidi;
+	color:#0F4761;
+	mso-themecolor:accent1;
+	mso-themeshade:191;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:normal;}
+h3
+	{mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 3 Char";
+	mso-style-next:Normal;
+	margin-top:8.0pt;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	line-height:107%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:14.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Yu Gothic Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:major-bidi;
+	color:#0F4761;
+	mso-themecolor:accent1;
+	mso-themeshade:191;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:normal;}
+h4
+	{mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 4 Char";
+	mso-style-next:Normal;
+	margin-top:4.0pt;
+	margin-right:0in;
+	margin-bottom:2.0pt;
+	margin-left:0in;
+	line-height:107%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Yu Gothic Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:major-bidi;
+	color:#0F4761;
+	mso-themecolor:accent1;
+	mso-themeshade:191;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:normal;
+	font-style:italic;}
+h5
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 5 Char";
+	mso-style-next:Normal;
+	margin-top:4.0pt;
+	margin-right:0in;
+	margin-bottom:2.0pt;
+	margin-left:0in;
+	line-height:107%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:5;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Yu Gothic Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:major-bidi;
+	color:#0F4761;
+	mso-themecolor:accent1;
+	mso-themeshade:191;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:normal;}
+h6
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 6 Char";
+	mso-style-next:Normal;
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	line-height:107%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:6;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Yu Gothic Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:major-bidi;
+	color:#595959;
+	mso-themecolor:text1;
+	mso-themetint:166;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:normal;
+	font-style:italic;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 7 Char";
+	mso-style-next:Normal;
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	line-height:107%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:7;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Yu Gothic Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:major-bidi;
+	color:#595959;
+	mso-themecolor:text1;
+	mso-themetint:166;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 8 Char";
+	mso-style-next:Normal;
+	margin:0in;
+	line-height:107%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:8;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Yu Gothic Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:major-bidi;
+	color:#272727;
+	mso-themecolor:text1;
+	mso-themetint:216;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-style:italic;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 9 Char";
+	mso-style-next:Normal;
+	margin:0in;
+	line-height:107%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:9;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Yu Gothic Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:major-bidi;
+	color:#272727;
+	mso-themecolor:text1;
+	mso-themetint:216;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{mso-style-update:auto;
+	mso-style-priority:39;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:0in;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Aptos;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{mso-style-update:auto;
+	mso-style-priority:39;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:11.0pt;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Aptos;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{mso-style-update:auto;
+	mso-style-priority:39;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:22.0pt;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Aptos;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-priority:99;
+	mso-style-link:"Header Char";
+	margin:0in;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.25in right 6.5in;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Aptos;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-priority:99;
+	mso-style-link:"Footer Char";
+	margin:0in;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.25in right 6.5in;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Aptos;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-priority:10;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Title Char";
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:28.0pt;
+	font-family:"Aptos Display",sans-serif;
+	mso-ascii-font-family:"Aptos Display";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Yu Gothic Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Aptos Display";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:major-bidi;
+	letter-spacing:-.5pt;
+	mso-font-kerning:14.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+p.MsoTitleCxSpFirst, li.MsoTitleCxSpFirst, div.MsoTitleCxSpFirst
+	{mso-style-priority:10;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Title Char";
+	mso-style-next:Normal;
+	mso-style-type:export-only;
+	margin:0in;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:28.0pt;
+	font-family:"Aptos Display",sans-serif;
+	mso-ascii-font-family:"Aptos Display";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Yu Gothic Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Aptos Display";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:major-bidi;
+	letter-spacing:-.5pt;
+	mso-font-kerning:14.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+p.MsoTitleCxSpMiddle, li.MsoTitleCxSpMiddle, div.MsoTitleCxSpMiddle
+	{mso-style-priority:10;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Title Char";
+	mso-style-next:Normal;
+	mso-style-type:export-only;
+	margin:0in;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:28.0pt;
+	font-family:"Aptos Display",sans-serif;
+	mso-ascii-font-family:"Aptos Display";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Yu Gothic Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Aptos Display";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:major-bidi;
+	letter-spacing:-.5pt;
+	mso-font-kerning:14.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+p.MsoTitleCxSpLast, li.MsoTitleCxSpLast, div.MsoTitleCxSpLast
+	{mso-style-priority:10;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Title Char";
+	mso-style-next:Normal;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:28.0pt;
+	font-family:"Aptos Display",sans-serif;
+	mso-ascii-font-family:"Aptos Display";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Yu Gothic Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Aptos Display";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:major-bidi;
+	letter-spacing:-.5pt;
+	mso-font-kerning:14.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{mso-style-priority:11;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Subtitle Char";
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:14.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Yu Gothic Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:major-bidi;
+	color:#595959;
+	mso-themecolor:text1;
+	mso-themetint:166;
+	letter-spacing:.75pt;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	mso-add-space:auto;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Aptos;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	mso-add-space:auto;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Aptos;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	mso-add-space:auto;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Aptos;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	mso-add-space:auto;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Aptos;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+p.MsoQuote, li.MsoQuote, div.MsoQuote
+	{mso-style-priority:29;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Quote Char";
+	mso-style-next:Normal;
+	margin-top:8.0pt;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	text-align:center;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Aptos;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:minor-bidi;
+	color:#404040;
+	mso-themecolor:text1;
+	mso-themetint:191;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-style:italic;}
+p.MsoIntenseQuote, li.MsoIntenseQuote, div.MsoIntenseQuote
+	{mso-style-priority:30;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Intense Quote Char";
+	mso-style-next:Normal;
+	margin-top:.25in;
+	margin-right:.6in;
+	margin-bottom:.25in;
+	margin-left:.6in;
+	text-align:center;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	border:none;
+	mso-border-top-alt:solid #0F4761 .5pt;
+	mso-border-top-themecolor:accent1;
+	mso-border-top-themeshade:191;
+	mso-border-bottom-alt:solid #0F4761 .5pt;
+	mso-border-bottom-themecolor:accent1;
+	mso-border-bottom-themeshade:191;
+	padding:0in;
+	mso-padding-alt:10.0pt 0in 10.0pt 0in;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Aptos;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:minor-bidi;
+	color:#0F4761;
+	mso-themecolor:accent1;
+	mso-themeshade:191;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-style:italic;}
+span.MsoIntenseEmphasis
+	{mso-style-priority:21;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	color:#0F4761;
+	mso-themecolor:accent1;
+	mso-themeshade:191;
+	font-style:italic;}
+span.MsoIntenseReference
+	{mso-style-priority:32;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	font-variant:small-caps;
+	color:#0F4761;
+	mso-themecolor:accent1;
+	mso-themeshade:191;
+	letter-spacing:.25pt;
+	font-weight:bold;}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading
+	{mso-style-priority:39;
+	mso-style-qformat:yes;
+	mso-style-parent:"Heading 1";
+	mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	line-height:107%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Aptos Display",sans-serif;
+	mso-ascii-font-family:"Aptos Display";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Yu Gothic Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Aptos Display";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:major-bidi;
+	color:#0F4761;
+	mso-themecolor:accent1;
+	mso-themeshade:191;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 1";
+	mso-ansi-font-size:20.0pt;
+	mso-bidi-font-size:20.0pt;
+	font-family:"Aptos Display",sans-serif;
+	mso-ascii-font-family:"Aptos Display";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Yu Gothic Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Aptos Display";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:major-bidi;
+	color:#0F4761;
+	mso-themecolor:accent1;
+	mso-themeshade:191;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 2";
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:"Aptos Display",sans-serif;
+	mso-ascii-font-family:"Aptos Display";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Yu Gothic Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Aptos Display";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:major-bidi;
+	color:#0F4761;
+	mso-themecolor:accent1;
+	mso-themeshade:191;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 3";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Yu Gothic Light",sans-serif;
+	mso-fareast-font-family:"Yu Gothic Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:major-bidi;
+	color:#0F4761;
+	mso-themecolor:accent1;
+	mso-themeshade:191;}
+span.Heading4Char
+	{mso-style-name:"Heading 4 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 4";
+	font-family:"Yu Gothic Light",sans-serif;
+	mso-fareast-font-family:"Yu Gothic Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:major-bidi;
+	color:#0F4761;
+	mso-themecolor:accent1;
+	mso-themeshade:191;
+	font-style:italic;}
+span.Heading5Char
+	{mso-style-name:"Heading 5 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 5";
+	font-family:"Yu Gothic Light",sans-serif;
+	mso-fareast-font-family:"Yu Gothic Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:major-bidi;
+	color:#0F4761;
+	mso-themecolor:accent1;
+	mso-themeshade:191;}
+span.Heading6Char
+	{mso-style-name:"Heading 6 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 6";
+	font-family:"Yu Gothic Light",sans-serif;
+	mso-fareast-font-family:"Yu Gothic Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:major-bidi;
+	color:#595959;
+	mso-themecolor:text1;
+	mso-themetint:166;
+	font-style:italic;}
+span.Heading7Char
+	{mso-style-name:"Heading 7 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 7";
+	font-family:"Yu Gothic Light",sans-serif;
+	mso-fareast-font-family:"Yu Gothic Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:major-bidi;
+	color:#595959;
+	mso-themecolor:text1;
+	mso-themetint:166;}
+span.Heading8Char
+	{mso-style-name:"Heading 8 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 8";
+	font-family:"Yu Gothic Light",sans-serif;
+	mso-fareast-font-family:"Yu Gothic Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:major-bidi;
+	color:#272727;
+	mso-themecolor:text1;
+	mso-themetint:216;
+	font-style:italic;}
+span.Heading9Char
+	{mso-style-name:"Heading 9 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 9";
+	font-family:"Yu Gothic Light",sans-serif;
+	mso-fareast-font-family:"Yu Gothic Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:major-bidi;
+	color:#272727;
+	mso-themecolor:text1;
+	mso-themetint:216;}
+span.TitleChar
+	{mso-style-name:"Title Char";
+	mso-style-priority:10;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Title;
+	mso-ansi-font-size:28.0pt;
+	mso-bidi-font-size:28.0pt;
+	font-family:"Aptos Display",sans-serif;
+	mso-ascii-font-family:"Aptos Display";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Yu Gothic Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Aptos Display";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:major-bidi;
+	letter-spacing:-.5pt;
+	mso-font-kerning:14.0pt;}
+span.SubtitleChar
+	{mso-style-name:"Subtitle Char";
+	mso-style-priority:11;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Subtitle;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Yu Gothic Light",sans-serif;
+	mso-fareast-font-family:"Yu Gothic Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:major-bidi;
+	color:#595959;
+	mso-themecolor:text1;
+	mso-themetint:166;
+	letter-spacing:.75pt;}
+span.QuoteChar
+	{mso-style-name:"Quote Char";
+	mso-style-priority:29;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Quote;
+	color:#404040;
+	mso-themecolor:text1;
+	mso-themetint:191;
+	font-style:italic;}
+span.IntenseQuoteChar
+	{mso-style-name:"Intense Quote Char";
+	mso-style-priority:30;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Intense Quote";
+	color:#0F4761;
+	mso-themecolor:accent1;
+	mso-themeshade:191;
+	font-style:italic;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+span.course-highlight
+	{mso-style-name:course-highlight;
+	mso-style-unhide:no;}
+p.course-highlight1, li.course-highlight1, div.course-highlight1
+	{mso-style-name:course-highlight1;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+span.course-question-label
+	{mso-style-name:course-question-label;
+	mso-style-unhide:no;}
+span.HeaderChar
+	{mso-style-name:"Header Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Header;}
+span.FooterChar
+	{mso-style-name:"Footer Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Footer;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Aptos;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Myanmar Text";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	line-height:107%;}
+ /* Page Definitions */
+ @page
+	{mso-footnote-separator:url("section10_files/header.htm") fs;
+	mso-footnote-continuation-separator:url("section10_files/header.htm") fcs;
+	mso-endnote-separator:url("section10_files/header.htm") es;
+	mso-endnote-continuation-separator:url("section10_files/header.htm") ecs;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-footer:url("section10_files/header.htm") f1;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:149059411;
+	mso-list-template-ids:-221493592;}
+@list l1
+	{mso-list-id:351230396;
+	mso-list-template-ids:-1187641960;}
+@list l2
+	{mso-list-id:475757770;
+	mso-list-template-ids:1047809446;}
+@list l3
+	{mso-list-id:574508925;
+	mso-list-template-ids:1683798332;}
+@list l4
+	{mso-list-id:781221748;
+	mso-list-template-ids:-1742157342;}
+@list l4:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l5
+	{mso-list-id:882249987;
+	mso-list-template-ids:-1276221010;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l5:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l5:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l5:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l5:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l5:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l5:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l5:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l5:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l6
+	{mso-list-id:997464813;
+	mso-list-template-ids:1897406828;}
+@list l6:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l6:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l6:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l6:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l6:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l6:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l6:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l6:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l6:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l7
+	{mso-list-id:1062674828;
+	mso-list-template-ids:-2106939004;}
+@list l7:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l7:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l7:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l7:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l7:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l7:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l7:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l7:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l7:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l8
+	{mso-list-id:1213273993;
+	mso-list-template-ids:510803788;}
+@list l8:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l8:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l9
+	{mso-list-id:1288244644;
+	mso-list-template-ids:-605785626;}
+@list l10
+	{mso-list-id:1334182180;
+	mso-list-template-ids:-392254046;}
+@list l11
+	{mso-list-id:1387098497;
+	mso-list-template-ids:-2085966052;}
+@list l12
+	{mso-list-id:1396204103;
+	mso-list-template-ids:847691302;}
+@list l12:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l12:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l13
+	{mso-list-id:1532957176;
+	mso-list-template-ids:20213126;}
+@list l14
+	{mso-list-id:1795253054;
+	mso-list-template-ids:561688634;}
+@list l15
+	{mso-list-id:1847403728;
+	mso-list-template-ids:-480745990;}
+@list l15:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l16
+	{mso-list-id:1863781017;
+	mso-list-template-ids:1871349638;}
+@list l16:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l16:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l16:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l16:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l16:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l16:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l16:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l16:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l16:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l17
+	{mso-list-id:1950159878;
+	mso-list-template-ids:-1407053100;}
+@list l17:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l17:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l17:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l17:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l17:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l17:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l17:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l17:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l17:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l18
+	{mso-list-id:2030063247;
+	mso-list-template-ids:81666046;}
+@list l18:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l18:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l18:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l18:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l18:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l18:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l18:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l18:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l18:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l19
+	{mso-list-id:2120876530;
+	mso-list-template-ids:-1294192258;}
+@list l19:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l19:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l19:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l19:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l19:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l19:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l19:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l19:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l19:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin-top:0in;
+	mso-para-margin-right:0in;
+	mso-para-margin-bottom:8.0pt;
+	mso-para-margin-left:0in;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in;word-wrap:
+break-word'>
+
+<div class=WordSection1>
+
+<h1 style='text-align:justify'><a name="_Toc161590350">Section 10 - Digital
+Interfaces, Inputs, Outputs, Monitors, and Projectors</a></h1>
+
+<p class=MsoNormal style='text-align:justify'>This course is designed to
+introduce non-IT students to the fundamentals of digital interfaces, inputs,
+outputs, monitors, and projectors. You will learn about different types of digital
+interfaces and how they facilitate communication between devices. We will
+explore various input and output devices used in digital systems and understand
+their functionality. Additionally, we will delve into the world of monitors and
+projectors, covering their features, settings, and common troubleshooting
+techniques. By the end of this course, you will have a solid foundation in
+digital display technologies and be able to make informed decisions when
+setting up and using digital projectors for displaying content.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>Course Objectives:<o:p></o:p></b></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='margin-bottom:0in;text-align:justify;mso-list:l7 level1 lfo1;
+     tab-stops:list .5in'>Understand the basics of digital interfaces and their
+     role in device communication.</li>
+ <li class=MsoNormal style='margin-bottom:0in;text-align:justify;mso-list:l7 level1 lfo1;
+     tab-stops:list .5in'>Recognize different input and output devices used in
+     digital systems and their functions.</li>
+ <li class=MsoNormal style='margin-bottom:0in;text-align:justify;mso-list:l7 level1 lfo1;
+     tab-stops:list .5in'>Explore the features, settings, and troubleshooting
+     techniques for monitors and projectors.</li>
+ <li class=MsoNormal style='margin-bottom:0in;text-align:justify;mso-list:l7 level1 lfo1;
+     tab-stops:list .5in'>Learn best practices for optimizing performance and
+     compatibility of digital display systems.</li>
+ <li class=MsoNormal style='margin-bottom:0in;text-align:justify;mso-list:l7 level1 lfo1;
+     tab-stops:list .5in'>Reflect on the importance of digital interfaces and
+     display technologies in today's digital world.</li>
+</ul>
+
+<p class=MsoNormal style='text-align:justify'><b><o:p>&nbsp;</o:p></b></p>
+
+<b><span style='font-size:11.0pt;line-height:107%;font-family:"Aptos",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Aptos;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Myanmar Text";
+mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA'><br clear=all style='page-break-before:always'>
+<br clear=all style='mso-special-character:line-break;page-break-before:always'>
+</span></b>
+
+<p class=MsoNormal><b><o:p>&nbsp;</o:p></b></p>
+
+<w:Sdt SdtDocPart="t" DocPartType="Table of Contents" DocPartUnique="t"
+ ID="-180366030">
+ <p class=MsoTocHeading>Contents<span style='font-size:11.0pt;line-height:107%;
+ mso-ascii-font-family:Aptos;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+ Aptos;mso-fareast-theme-font:minor-latin;mso-hansi-font-family:Aptos;
+ mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Myanmar Text";
+ mso-bidi-theme-font:minor-bidi;color:windowtext'><w:sdtPr></w:sdtPr></span></p>
+ <p class=MsoToc1 style='tab-stops:right dotted 467.5pt'><!--[if supportFields]><span
+ style='mso-element:field-begin'></span><span
+ style='mso-spacerun:yes'></span>TOC \o &quot;1-3&quot; \h \z \u <span
+ style='mso-element:field-separator'></span><![endif]--><a href="#_Toc161590350"><span
+ style='mso-no-proof:yes'>Section 10 - Digital Interfaces, Inputs, Outputs,
+ Monitors, and Projectors</span><span style='color:windowtext;display:none;
+ mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:none'><span
+ style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-element:field-begin'></span>
+ PAGEREF _Toc161590350 \h <span style='mso-element:field-separator'></span></span><![endif]--><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'>1<!--[if gte mso 9]><xml>
+  <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100360031003500390030003300350030000000</w:data>
+ </xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+ display:none;mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:
+ none'><span style='mso-element:field-end'></span></span><![endif]--></a><span
+ style='mso-no-proof:yes'><o:p></o:p></span></p>
+ <p class=MsoToc2 style='tab-stops:right dotted 467.5pt'><a
+ href="#_Toc161590351"><span style='mso-no-proof:yes'>1. Introduction to
+ Digital Interfaces</span><span style='color:windowtext;display:none;
+ mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:none'><span
+ style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-element:field-begin'></span>
+ PAGEREF _Toc161590351 \h <span style='mso-element:field-separator'></span></span><![endif]--><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'>3<!--[if gte mso 9]><xml>
+  <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100360031003500390030003300350031000000</w:data>
+ </xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+ display:none;mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:
+ none'><span style='mso-element:field-end'></span></span><![endif]--></a><span
+ style='mso-no-proof:yes'><o:p></o:p></span></p>
+ <p class=MsoToc3 style='tab-stops:right dotted 467.5pt'><a
+ href="#_Toc161590352"><span style='mso-no-proof:yes'>1.1. Definition and
+ importance of digital interfaces</span><span style='color:windowtext;
+ display:none;mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:
+ none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-element:field-begin'></span>
+ PAGEREF _Toc161590352 \h <span style='mso-element:field-separator'></span></span><![endif]--><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'>3<!--[if gte mso 9]><xml>
+  <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100360031003500390030003300350032000000</w:data>
+ </xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+ display:none;mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:
+ none'><span style='mso-element:field-end'></span></span><![endif]--></a><span
+ style='mso-no-proof:yes'><o:p></o:p></span></p>
+ <p class=MsoToc3 style='tab-stops:right dotted 467.5pt'><a
+ href="#_Toc161590353"><span style='mso-no-proof:yes'>1.2. Types of digital
+ interfaces</span><span style='color:windowtext;display:none;mso-hide:screen;
+ mso-no-proof:yes;text-decoration:none;text-underline:none'><span
+ style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-element:field-begin'></span>
+ PAGEREF _Toc161590353 \h <span style='mso-element:field-separator'></span></span><![endif]--><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'>4<!--[if gte mso 9]><xml>
+  <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100360031003500390030003300350033000000</w:data>
+ </xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+ display:none;mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:
+ none'><span style='mso-element:field-end'></span></span><![endif]--></a><span
+ style='mso-no-proof:yes'><o:p></o:p></span></p>
+ <p class=MsoToc3 style='tab-stops:right dotted 467.5pt'><a
+ href="#_Toc161590354"><span style='mso-no-proof:yes'>1.3. Communication
+ protocols</span><span style='color:windowtext;display:none;mso-hide:screen;
+ mso-no-proof:yes;text-decoration:none;text-underline:none'><span
+ style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-element:field-begin'></span>
+ PAGEREF _Toc161590354 \h <span style='mso-element:field-separator'></span></span><![endif]--><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'>5<!--[if gte mso 9]><xml>
+  <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100360031003500390030003300350034000000</w:data>
+ </xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+ display:none;mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:
+ none'><span style='mso-element:field-end'></span></span><![endif]--></a><span
+ style='mso-no-proof:yes'><o:p></o:p></span></p>
+ <p class=MsoToc2 style='tab-stops:right dotted 467.5pt'><a
+ href="#_Toc161590355"><span style='mso-no-proof:yes'>2. Input Devices</span><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-element:field-begin'></span>
+ PAGEREF _Toc161590355 \h <span style='mso-element:field-separator'></span></span><![endif]--><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'>6<!--[if gte mso 9]><xml>
+  <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100360031003500390030003300350035000000</w:data>
+ </xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+ display:none;mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:
+ none'><span style='mso-element:field-end'></span></span><![endif]--></a><span
+ style='mso-no-proof:yes'><o:p></o:p></span></p>
+ <p class=MsoToc3 style='tab-stops:right dotted 467.5pt'><a
+ href="#_Toc161590356"><span style='mso-no-proof:yes'>2.1. Overview of input
+ devices such as keyboards, mice, touchscreens, and sensors</span><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-element:field-begin'></span>
+ PAGEREF _Toc161590356 \h <span style='mso-element:field-separator'></span></span><![endif]--><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'>6<!--[if gte mso 9]><xml>
+  <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100360031003500390030003300350036000000</w:data>
+ </xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+ display:none;mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:
+ none'><span style='mso-element:field-end'></span></span><![endif]--></a><span
+ style='mso-no-proof:yes'><o:p></o:p></span></p>
+ <p class=MsoToc3 style='tab-stops:right dotted 467.5pt'><a
+ href="#_Toc161590357"><span style='mso-no-proof:yes'>2.2. Explanation of how
+ input devices capture and transmit user input to digital systems</span><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-element:field-begin'></span>
+ PAGEREF _Toc161590357 \h <span style='mso-element:field-separator'></span></span><![endif]--><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'>7<!--[if gte mso 9]><xml>
+  <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100360031003500390030003300350037000000</w:data>
+ </xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+ display:none;mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:
+ none'><span style='mso-element:field-end'></span></span><![endif]--></a><span
+ style='mso-no-proof:yes'><o:p></o:p></span></p>
+ <p class=MsoToc2 style='tab-stops:right dotted 467.5pt'><a
+ href="#_Toc161590358"><span style='mso-no-proof:yes'>3. Output Devices</span><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-element:field-begin'></span>
+ PAGEREF _Toc161590358 \h <span style='mso-element:field-separator'></span></span><![endif]--><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'>7<!--[if gte mso 9]><xml>
+  <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100360031003500390030003300350038000000</w:data>
+ </xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+ display:none;mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:
+ none'><span style='mso-element:field-end'></span></span><![endif]--></a><span
+ style='mso-no-proof:yes'><o:p></o:p></span></p>
+ <p class=MsoToc3 style='tab-stops:right dotted 467.5pt'><a
+ href="#_Toc161590359"><span style='mso-no-proof:yes'>3.1. Overview of output
+ devices such as monitors, speakers, printers, and actuators</span><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-element:field-begin'></span>
+ PAGEREF _Toc161590359 \h <span style='mso-element:field-separator'></span></span><![endif]--><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'>7<!--[if gte mso 9]><xml>
+  <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100360031003500390030003300350039000000</w:data>
+ </xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+ display:none;mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:
+ none'><span style='mso-element:field-end'></span></span><![endif]--></a><span
+ style='mso-no-proof:yes'><o:p></o:p></span></p>
+ <p class=MsoToc3 style='tab-stops:right dotted 467.5pt'><a
+ href="#_Toc161590360"><span style='mso-no-proof:yes'>3.2. Explanation of how
+ output devices receive and display data from digital systems</span><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-element:field-begin'></span>
+ PAGEREF _Toc161590360 \h <span style='mso-element:field-separator'></span></span><![endif]--><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'>9<!--[if gte mso 9]><xml>
+  <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100360031003500390030003300360030000000</w:data>
+ </xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+ display:none;mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:
+ none'><span style='mso-element:field-end'></span></span><![endif]--></a><span
+ style='mso-no-proof:yes'><o:p></o:p></span></p>
+ <p class=MsoToc3 style='tab-stops:right dotted 467.5pt'><a
+ href="#_Toc161590361"><span style='mso-no-proof:yes'>3.3. Discussion of the
+ features, functions, and applications of different output devices</span><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-element:field-begin'></span>
+ PAGEREF _Toc161590361 \h <span style='mso-element:field-separator'></span></span><![endif]--><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'>10<!--[if gte mso 9]><xml>
+  <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100360031003500390030003300360031000000</w:data>
+ </xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+ display:none;mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:
+ none'><span style='mso-element:field-end'></span></span><![endif]--></a><span
+ style='mso-no-proof:yes'><o:p></o:p></span></p>
+ <p class=MsoToc2 style='tab-stops:right dotted 467.5pt'><a
+ href="#_Toc161590362"><span style='mso-no-proof:yes'>5. Projectors</span><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-element:field-begin'></span>
+ PAGEREF _Toc161590362 \h <span style='mso-element:field-separator'></span></span><![endif]--><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'>12<!--[if gte mso 9]><xml>
+  <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100360031003500390030003300360032000000</w:data>
+ </xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+ display:none;mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:
+ none'><span style='mso-element:field-end'></span></span><![endif]--></a><span
+ style='mso-no-proof:yes'><o:p></o:p></span></p>
+ <p class=MsoToc3 style='tab-stops:right dotted 467.5pt'><a
+ href="#_Toc161590363"><span style='mso-no-proof:yes'>5.1. Overview of
+ projector technology and applications</span><span style='color:windowtext;
+ display:none;mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:
+ none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-element:field-begin'></span>
+ PAGEREF _Toc161590363 \h <span style='mso-element:field-separator'></span></span><![endif]--><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'>12<!--[if gte mso 9]><xml>
+  <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100360031003500390030003300360033000000</w:data>
+ </xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+ display:none;mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:
+ none'><span style='mso-element:field-end'></span></span><![endif]--></a><span
+ style='mso-no-proof:yes'><o:p></o:p></span></p>
+ <p class=MsoToc2 style='tab-stops:right dotted 467.5pt'><a
+ href="#_Toc161590364"><span style='mso-no-proof:yes'>6. Digital Display
+ Security and Privacy</span><span style='color:windowtext;display:none;
+ mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:none'><span
+ style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-element:field-begin'></span>
+ PAGEREF _Toc161590364 \h <span style='mso-element:field-separator'></span></span><![endif]--><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'>15<!--[if gte mso 9]><xml>
+  <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100360031003500390030003300360034000000</w:data>
+ </xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+ display:none;mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:
+ none'><span style='mso-element:field-end'></span></span><![endif]--></a><span
+ style='mso-no-proof:yes'><o:p></o:p></span></p>
+ <p class=MsoToc3 style='tab-stops:right dotted 467.5pt'><a
+ href="#_Toc161590365"><span style='mso-no-proof:yes'>6.1. Understanding
+ security risks associated with digital displays</span><span style='color:windowtext;
+ display:none;mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:
+ none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-element:field-begin'></span>
+ PAGEREF _Toc161590365 \h <span style='mso-element:field-separator'></span></span><![endif]--><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'>15<!--[if gte mso 9]><xml>
+  <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100360031003500390030003300360035000000</w:data>
+ </xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+ display:none;mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:
+ none'><span style='mso-element:field-end'></span></span><![endif]--></a><span
+ style='mso-no-proof:yes'><o:p></o:p></span></p>
+ <p class=MsoToc2 style='tab-stops:right dotted 467.5pt'><a
+ href="#_Toc161590366"><span style='mso-no-proof:yes'>7. Future Trends in
+ Digital Interfaces and Display Technologies</span><span style='color:windowtext;
+ display:none;mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:
+ none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-element:field-begin'></span>
+ PAGEREF _Toc161590366 \h <span style='mso-element:field-separator'></span></span><![endif]--><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'>16<!--[if gte mso 9]><xml>
+  <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100360031003500390030003300360036000000</w:data>
+ </xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+ display:none;mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:
+ none'><span style='mso-element:field-end'></span></span><![endif]--></a><span
+ style='mso-no-proof:yes'><o:p></o:p></span></p>
+ <p class=MsoToc3 style='tab-stops:right dotted 467.5pt'><a
+ href="#_Toc161590367"><span style='mso-no-proof:yes'>7.1. Exploring the
+ advancements in digital interfaces</span><span style='color:windowtext;
+ display:none;mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:
+ none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-element:field-begin'></span>
+ PAGEREF _Toc161590367 \h <span style='mso-element:field-separator'></span></span><![endif]--><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'>16<!--[if gte mso 9]><xml>
+  <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100360031003500390030003300360037000000</w:data>
+ </xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+ display:none;mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:
+ none'><span style='mso-element:field-end'></span></span><![endif]--></a><span
+ style='mso-no-proof:yes'><o:p></o:p></span></p>
+ <p class=MsoToc3 style='tab-stops:right dotted 467.5pt'><a
+ href="#_Toc161590368"><span style='mso-no-proof:yes'>7.2. Predicting future
+ trends in display technologies</span><span style='color:windowtext;display:
+ none;mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:
+ none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-element:field-begin'></span>
+ PAGEREF _Toc161590368 \h <span style='mso-element:field-separator'></span></span><![endif]--><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'>17<!--[if gte mso 9]><xml>
+  <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100360031003500390030003300360038000000</w:data>
+ </xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+ display:none;mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:
+ none'><span style='mso-element:field-end'></span></span><![endif]--></a><span
+ style='mso-no-proof:yes'><o:p></o:p></span></p>
+ <p class=MsoToc3 style='tab-stops:right dotted 467.5pt'><a
+ href="#_Toc161590369"><span style='mso-no-proof:yes'>7.3. Discussing the
+ potential impact of augmented reality (AR) and virtual reality (VR)</span><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'> </span></span><!--[if supportFields]><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'><span style='mso-element:field-begin'></span>
+ PAGEREF _Toc161590369 \h <span style='mso-element:field-separator'></span></span><![endif]--><span
+ style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
+ text-decoration:none;text-underline:none'>18<!--[if gte mso 9]><xml>
+  <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100360031003500390030003300360039000000</w:data>
+ </xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+ display:none;mso-hide:screen;mso-no-proof:yes;text-decoration:none;text-underline:
+ none'><span style='mso-element:field-end'></span></span><![endif]--></a><span
+ style='mso-no-proof:yes'><o:p></o:p></span></p>
+ <p class=MsoNormal><!--[if supportFields]><b><span style='mso-no-proof:yes'><span
+ style='mso-element:field-end'></span></span></b><![endif]--><o:p>&nbsp;</o:p></p>
+</w:Sdt><b><span style='font-size:11.0pt;line-height:107%;font-family:"Aptos",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Aptos;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Myanmar Text";
+mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA'><br clear=all style='mso-special-character:line-break;
+page-break-before:always'>
+</span></b>
+
+<p class=MsoNormal><b><o:p>&nbsp;</o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+
+<h2 style='text-align:justify'><a name="_Toc161590351">1. Introduction to
+Digital Interfaces</a></h2>
+
+<h3 style='text-align:justify'><a name="_Toc161590352">1.1. Definition and
+importance of digital interfaces</a></h3>
+
+<p class=MsoNormal style='text-align:justify'>A digital interface refers to the
+connection between two or more devices that allows them to communicate and
+exchange data in a digital format. It serves as a bridge that enables seamless
+interaction between various hardware and software components. Digital
+interfaces can be found in a wide range of devices, including computers,
+smartphones, tablets, gaming consoles, and even household appliances.</p>
+
+<p class=MsoNormal style='text-align:justify'>The importance of understanding
+digital interfaces cannot be overstated, especially in today's increasingly
+interconnected world. As technology continues to advance at a rapid pace,
+digital interfaces have become essential for the smooth functioning of various
+systems and devices. They enable us to connect and communicate with each other,
+access information, and perform a multitude of tasks efficiently.</p>
+
+<p class=MsoNormal style='text-align:justify'>By understanding digital
+interfaces, you will gain the knowledge and skills necessary to effectively
+navigate and utilize the digital landscape. Whether you are a non-IT student, a
+professional, or simply an individual interested in technology, this knowledge
+will empower you to make informed decisions and maximize the potential of
+digital devices and systems.</p>
+
+<p class=MsoNormal style='text-align:justify'>Moreover, a solid understanding
+of digital interfaces opens up numerous opportunities for innovation and
+problem-solving. As you delve deeper into the subject, you will discover how
+different interfaces can be leveraged to create new and exciting applications,
+improve existing technologies, and enhance user experiences. The ability to
+comprehend and work with digital interfaces is a valuable skill that can
+contribute to your personal and professional growth.</p>
+
+<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+
+<h3 style='text-align:justify'><a name="_Toc161590353">1.2. Types of digital
+interfaces</a></h3>
+
+<p class=MsoNormal style='text-align:justify'>In the previous section, we
+discussed the definition and importance of digital interfaces. Now, let's delve
+deeper into the different types of digital interfaces that are commonly used in
+modern technology.</p>
+
+<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='text-align:justify'><b>1. Serial Interfaces<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Serial interfaces are one of the
+most basic types of digital interfaces. They transmit data <b><span
+style='color:red'>one bit at a time</span></b>, sequentially, over a single
+wire or channel. One common example of a serial interface is the Universal
+Serial Bus (USB) port. USB ports are widely used for connecting various devices
+like keyboards, mice, printers, and external storage devices to computers.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>2. Parallel Interfaces<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Parallel interfaces, on the other
+hand, transmit <b><span style='color:red'>multiple bits simultaneously</span></b><span
+style='color:red'> </span>over multiple wires or channels. This allows for
+faster data transfer compared to serial interfaces. Parallel interfaces were
+commonly used in older computer systems for connecting peripherals such as
+printers and scanners. However, they are now less common due to the rise of
+serial interfaces like USB.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>3. Network Interfaces<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Network interfaces enable devices
+to connect and communicate with each other over a network. Ethernet is a widely
+used network interface that allows devices to connect to the internet or local
+area networks (LANs). Network interfaces are crucial for accessing online
+resources, sharing files, and communicating with other devices on a network.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>4. Wireless Interfaces<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Wireless interfaces have gained
+immense popularity in recent years due to the increasing prevalence of wireless
+technologies. These interfaces use radio waves or infrared signals to transmit
+data wirelessly between devices. Bluetooth and Wi-Fi are common examples of
+wireless interfaces that allow for convenient and seamless communication
+between devices without the need for physical connections.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>5. Display Interfaces<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Display interfaces are
+specifically designed to connect computers or other digital devices to external
+displays such as monitors, projectors, or televisions. HDMI (High-Definition
+Multimedia Interface) is a widely used display interface that supports high-definition
+video and audio transmission. Display interfaces play a crucial role in
+visualizing and presenting digital content on larger screens.</p>
+
+<p class=MsoNormal style='text-align:justify'>Understanding the different types
+of digital interfaces is essential for effectively connecting and communicating
+with various devices. As technology continues to advance, it is important to
+stay updated with the latest interface technologies to make the most out of
+your digital devices and systems.</p>
+
+<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+
+<h3 style='text-align:justify'><a name="_Toc161590354">1.3. Communication
+protocols</a></h3>
+
+<p class=MsoNormal style='text-align:justify'><b>Types of Communication
+Protocols<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>There are various types of
+communication protocols used in digital interfaces, each catering to different
+needs and requirements. Let's explore some of the most common ones:</p>
+
+<p class=MsoNormal style='text-align:justify'><b>1. Universal Serial Bus (USB)<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>USB is one of the most widely
+used communication protocols for connecting peripherals to computers and other
+devices. It allows for the transfer of data, power, and even audio and video
+signals. USB has evolved over the years, with USB 3.0 and USB-C being the
+latest versions, offering faster data transfer speeds and improved power
+delivery.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>2. Bluetooth<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Bluetooth is a wireless
+communication protocol that enables devices to connect and exchange data over
+short distances. It is commonly used for connecting smartphones, tablets, and
+other portable devices to peripherals such as headphones, speakers, and keyboards.
+Bluetooth is known for its low power consumption and ease of use.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>3. Wi-Fi<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Wi-Fi, short for Wireless
+Fidelity, is a communication protocol that allows devices to connect to a local
+area network (LAN) wirelessly. It is commonly used for internet connectivity
+and enables devices to access the internet, share data, and communicate with
+other devices on the same network. Wi-Fi offers high-speed data transfer and a
+wide range of coverage.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>4. Ethernet<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Ethernet is a wired communication
+protocol commonly used for local area networks (LANs) and internet
+connectivity. It utilizes Ethernet cables to transmit data between devices,
+offering high-speed and reliable communication. Ethernet is widely used in homes,
+offices, and data centers for connecting computers, routers, and other
+networking equipment.</p>
+
+<p class=MsoNormal style='text-align:justify'><b><o:p>&nbsp;</o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'><b>Considerations for Choosing
+Communication Protocols<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>When choosing a communication
+protocol for a particular application or device, several factors need to be
+considered:</p>
+
+<p class=MsoNormal style='text-align:justify'><b>1. Data Transfer Speed<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>The required data transfer speed
+will determine the suitable communication protocol. For applications that
+involve transferring large amounts of data, a high-speed protocol like USB 3.0
+or Ethernet may be preferred.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>2. Range and Coverage<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>The range and coverage required
+for communication between devices will also impact the choice of protocol.
+Wi-Fi and Bluetooth are suitable for short-range communication, while Ethernet
+is ideal for local area networks.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>3. Power Consumption<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>For portable devices, power
+consumption is an important consideration. Bluetooth and Wi-Fi are known for
+their low power consumption, making them ideal for battery-powered devices.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>4. Compatibility<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Compatibility with existing
+devices and systems is crucial when selecting a communication protocol. USB,
+being widely supported, ensures compatibility with a wide range of devices.</p>
+
+<p class=MsoNormal style='text-align:justify'>By understanding the different
+communication protocols available and considering the specific requirements of
+your application, you can make informed decisions when it comes to choosing the
+right protocol for your digital interfaces. </p>
+
+<h2 style='text-align:justify'><a name="_Toc161590355">2. Input Devices</a></h2>
+
+<h3 style='text-align:justify'><a name="_Toc161590356">2.1. Overview of input
+devices such as keyboards, mice, touchscreens, and sensors</a></h3>
+
+<p class=MsoNormal style='text-align:justify'><b>Overview of Input Devices<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>In this section, we will be
+delving into the fascinating world of input devices. These devices play a
+crucial role in capturing and transmitting user input to digital systems,
+allowing us to interact with the technology around us.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>Keyboards<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>One of the most common input
+devices we encounter is the keyboard. Keyboards consist of a set of keys, each
+representing a specific character or function. When a key is pressed, it sends
+an electrical signal to the computer, which then processes the input and
+displays the corresponding character on the screen. Keyboards come in various
+forms, including traditional wired keyboards, wireless keyboards, and even
+virtual keyboards on touchscreens.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>Mice<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Another widely used input device
+is the mouse. Mice allow users to control the movement of a cursor on the
+screen, making it easier to interact with graphical user interfaces.
+Traditional mice have a ball on the underside that rolls as the mouse moves, translating
+the motion into cursor movement. However, optical and laser mice have become
+more prevalent, using sensors to track movement on different surfaces.
+Additionally, there are specialized mice, such as gaming mice, that offer extra
+features like programmable buttons and adjustable sensitivity.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>Touchscreens<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>With the rise of smartphones and
+tablets, touchscreens have become increasingly popular as input devices. These
+displays can detect the touch of a finger or stylus, allowing users to interact
+directly with the screen. Touchscreens are not limited to mobile devices; they
+are also found in laptops, all-in-one computers, and even some desktop
+monitors. Touchscreens offer intuitive and natural input methods, making them
+ideal for tasks like scrolling, zooming, and selecting objects.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>Sensors<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>In addition to traditional input
+devices, sensors play a crucial role in capturing input from the physical
+world. Sensors can detect various stimuli, such as light, temperature,
+pressure, and motion. They convert these stimuli into electrical signals that
+can be processed by digital systems. For example, a temperature sensor can
+measure the ambient temperature and transmit the data to a computer for further
+analysis or control.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>Joystick<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>A joystick is an input device
+consisting of a stick that can be moved in various directions to control the
+movement of objects in video games, flight simulators, and other applications.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>Webcam<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>A webcam is a camera that
+captures video and images of the user or their surroundings, allowing for video
+conferencing, video recording, and other applications.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>Microphone<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>A microphone is a device that
+captures audio input, such as speech or sound, and converts it into digital
+signals that can be processed and recorded by a computer.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>Graphic Tablet<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>A graphics tablet, also known as
+a digitizing tablet or drawing tablet, is an input device that allows users to
+draw or write directly on a surface using a stylus or pen, with the input being
+transferred to a computer for digital processing.</p>
+
+<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+
+<h3 style='text-align:justify'><a name="_Toc161590357">2.2. Explanation of how
+input devices capture and transmit user input to digital systems</a></h3>
+
+<p class=MsoNormal style='text-align:justify'>Input devices play a crucial role
+in allowing users to interact with digital systems. These devices capture user
+input and transmit it to the digital system, enabling users to perform various
+tasks. Let's explore how different input devices capture and transmit user
+input:</p>
+
+<p class=MsoNormal style='text-align:justify'><b>1. Keyboards:<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Keyboards are one of the most
+commonly used input devices. When a user presses a key on the keyboard, it
+generates an electrical signal corresponding to that key. This signal is then
+transmitted to the digital system through a wired or wireless connection. The
+digital system recognizes the signal and converts it into the desired output,
+such as displaying the typed characters on the screen.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>2. Mice:<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Mice are another popular input
+device, especially for graphical user interfaces. When a user moves the mouse,
+it detects the movement using sensors or a laser. The mouse then translates
+this movement into electrical signals, which are transmitted to the digital
+system. The digital system interprets these signals and moves the cursor
+accordingly on the screen, allowing the user to interact with different
+elements.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>3. Touchscreens:<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Touchscreens have become
+increasingly common in modern devices such as smartphones and tablets. These
+input devices capture user input through touch gestures. When a user touches
+the screen, it detects the position and pressure of the touch. This information
+is then converted into electrical signals and transmitted to the digital
+system. The digital system interprets these signals and performs the
+corresponding actions, such as opening apps or scrolling through content.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>4. Sensors:<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Sensors are specialized input
+devices that capture specific types of data, such as temperature, motion, or
+light. These devices convert physical measurements into electrical signals,
+which are then transmitted to the digital system. The digital system processes
+these signals and uses the captured data for various purposes, such as
+adjusting settings or triggering specific actions.</p>
+
+<p class=MsoNormal style='text-align:justify'>Overall, input devices capture
+user input through various mechanisms and transmit it to the digital system.
+This allows users to interact with digital systems and perform tasks
+efficiently. Understanding how different input devices work is crucial for effectively
+utilizing them and maximizing their potential in everyday life.</p>
+
+<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+
+<h2 style='text-align:justify'><a name="_Toc161590358">3. Output Devices</a></h2>
+
+<h3 style='text-align:justify'><a name="_Toc161590359">3.1. Overview of output
+devices such as monitors, speakers, printers, and actuators</a></h3>
+
+<p class=MsoNormal style='text-align:justify'><b>Overview of Output Devices<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>In addition to input devices,
+digital systems also utilize output devices to display or transmit information
+to the user. These output devices play a crucial role in providing visual,
+auditory, or physical feedback to the user, completing the cycle of interaction
+between the user and the digital system. In this section, we will explore some
+commonly used output devices, including monitors, speakers, printers, and
+actuators.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>Monitors<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Monitors, also known as display
+screens or screens, are one of the most familiar output devices. They are used
+to visually present information generated by the digital system. Monitors come
+in various sizes and types, such as LCD (Liquid Crystal Display), LED (Light
+Emitting Diode), and OLED (Organic Light Emitting Diode) screens. These
+technologies differ in terms of picture quality, energy efficiency, and cost.</p>
+
+<p class=MsoNormal style='text-align:justify'>Monitors are essential in many
+areas, including computer systems, televisions, gaming consoles, and digital
+signage. They allow users to view text, images, videos, and graphical user
+interfaces (GUIs) that facilitate interaction with the digital system. When
+selecting a monitor, factors such as screen resolution, refresh rate, color
+accuracy, and response time should be considered based on the intended use.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>Speakers<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Speakers are audio output devices
+that produce sound or voice output from the digital system. They enable users
+to listen to music, watch videos with accompanying audio, and receive auditory
+feedback from applications. Speakers come in various forms, including built-in
+speakers in devices like computers and smartphones, as well as external
+speakers that can be connected to these devices.</p>
+
+<p class=MsoNormal style='text-align:justify'>When evaluating speakers, factors
+such as sound quality, frequency response, power output, and connectivity
+options should be taken into account. Different types of speakers, such as
+stereo speakers, surround sound speakers, and Bluetooth speakers, offer varying
+audio experiences and are suitable for different environments and purposes.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>Printers<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Printers are output devices that
+produce physical copies of digital information. They are commonly used to print
+documents, images, and other visual content. Printers can be classified into
+various types, including inkjet printers, laser printers, and 3D printers.</p>
+
+<p class=MsoNormal style='text-align:justify'>Inkjet printers use small ink
+droplets to create images and text on paper, while laser printers use toner and
+a laser beam to produce high-quality prints. 3D printers, on the other hand,
+can create three-dimensional objects by layering materials according to a
+digital design. The choice of printer depends on factors such as print quality,
+speed, cost per page, and the desired output.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>Actuators<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Actuators are output devices that
+produce physical motion or mechanical effects in response to digital signals.
+They are commonly used in robotics, automation systems, and virtual reality
+technologies. Actuators can include motors, solenoids, pneumatic systems, and
+haptic devices.</p>
+
+<p class=MsoNormal style='text-align:justify'>Motors convert electrical energy
+into mechanical motion, allowing objects to move or rotate. Solenoids are electromagnetic
+devices that produce linear motion when an electrical current is applied.
+Pneumatic systems use compressed air to create motion or force. Haptic devices
+provide tactile feedback, allowing users to experience touch sensations in
+virtual environments.</p>
+
+<p class=MsoNormal style='text-align:justify'>Understanding the capabilities
+and features of various output devices is crucial for selecting the right
+devices for specific applications. By choosing the appropriate output devices,
+users can enhance their overall digital experience and effectively interact
+with the digital systems they are using.</p>
+
+<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+
+<h3 style='text-align:justify'><a name="_Toc161590360">3.2. Explanation of how
+output devices receive and display data from digital systems</a></h3>
+
+<p class=MsoNormal style='text-align:justify'>Output devices play a crucial
+role in digital systems by receiving and displaying data that has been
+processed by the system. These devices provide the means for users to interact
+with and perceive the output of digital systems. In this section, we will explore
+the various types of output devices and how they receive and display data.</p>
+
+<p class=MsoNormal style='text-align:justify'>One of the most common output
+devices is a <b>monitor</b>. Monitors are display devices that use visual
+technology to present information to users. They receive data from the digital
+system in the form of electrical signals and convert them into visual images.
+Monitors are available in different sizes and resolutions, offering users a
+wide range of options based on their specific needs.</p>
+
+<p class=MsoNormal style='text-align:justify'>Another important output device
+is a <b>speaker</b>. Speakers receive audio data from the digital system and
+convert it into sound waves, allowing users to hear the output. They play a
+crucial role in multimedia systems, providing high-quality audio output for
+various applications such as music, videos, and gaming.</p>
+
+<p class=MsoNormal style='text-align:justify'>Printers are also commonly used
+output devices. They receive digital data and convert it into physical copies
+on paper or other printable materials. Printers can produce both text and
+graphics, making them essential for tasks such as document printing, photo
+printing, and graphic design.</p>
+
+<p class=MsoNormal style='text-align:justify'>Actuators are a type of output
+device that can perform physical actions based on the digital data received.
+These devices are commonly used in robotics and automation systems. They
+receive signals from the digital system and convert them into mechanical movements
+or actions. Examples of actuators include motors, solenoids, and pneumatic or
+hydraulic systems.</p>
+
+<p class=MsoNormal style='text-align:justify'>When it comes to receiving and
+displaying data, output devices rely on the digital interface to establish
+communication with the digital system. The digital interface acts as a bridge
+between the system and the output device, enabling the transfer of data in a
+format that the device can understand and utilize. It ensures compatibility and
+proper functioning of the output device.</p>
+
+<p class=MsoNormal style='text-align:justify'>In conclusion, output devices are
+essential components of digital systems, enabling users to perceive and
+interact with the output of these systems. Monitors, speakers, printers, and
+actuators are examples of output devices that receive and display data in
+various forms. The digital interface plays a crucial role in facilitating
+communication between the digital system and the output device, ensuring
+seamless data transfer and compatibility.</p>
+
+<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+
+<h3 style='text-align:justify'><a name="_Toc161590361">3.3. Discussion of the
+features, functions, and applications of different output devices</a></h3>
+
+<p class=MsoNormal style='text-align:justify'>In the previous section, we
+learned about input devices and how they capture and transmit user input to
+digital systems. Now, let's shift our focus to output devices, which receive
+and display data from these digital systems. Output devices play a crucial role
+in providing us with the information and results we need.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>Monitors<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Monitors are one of the most
+common output devices used in digital systems. They are display devices that
+allow us to view and interact with the output generated by computers and other
+devices. Monitors come in various sizes, resolutions, and technologies,
+offering users a wide range of options to choose from.</p>
+
+<p class=MsoNormal style='text-align:justify'>One of the key features to
+consider when selecting a monitor is its resolution, which determines the level
+of detail and clarity in the displayed content. Higher resolutions, such as
+Full HD or 4K, provide sharper and more detailed images. Additionally, the size
+of the monitor impacts the viewing experience, with larger screens offering a
+more immersive experience.</p>
+
+<p class=MsoNormal style='text-align:justify'>Monitors find applications in a
+variety of fields, including graphic design, video editing, gaming, and office
+work. Each field may have specific requirements, such as color accuracy for
+graphic design or high refresh rates for gaming. Understanding the features and
+specifications of monitors can help users make informed decisions based on
+their needs.</p>
+
+<p class=MsoNormal style='text-align:justify'>Here are some examples of
+monitors commonly found in various devices:</p>
+
+<ol style='margin-top:0in' start=1 type=1>
+ <li class=MsoNormal style='text-align:justify;mso-list:l13 level1 lfo19;
+     tab-stops:list .5in'><b>Liquid Crystal Display (LCD) Monitor</b>: LCD
+     monitors are widely used in computers, laptops, TVs, and various consumer
+     electronics. They use liquid crystal technology to display images and are
+     known for their slim profile and energy efficiency.</li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l13 level1 lfo19;
+     tab-stops:list .5in'><b>Light Emitting Diode (LED) Monitor</b>: LED
+     monitors utilize light-emitting diodes as backlighting instead of
+     traditional fluorescent tubes used in LCD monitors. LED monitors typically
+     offer better energy efficiency, higher brightness, and improved color
+     reproduction.</li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l13 level1 lfo19;
+     tab-stops:list .5in'><b>Organic Light Emitting Diode (OLED) Display</b>:
+     OLED displays are found in high-end smartphones, TVs, and wearable
+     devices. They use organic compounds that emit light when an electric
+     current is applied. OLED displays offer high contrast ratios, wider
+     viewing angles, and faster response times compared to LCDs.</li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l13 level1 lfo19;
+     tab-stops:list .5in'><b>Cathode Ray Tube (CRT) Monitor</b>: Although less
+     common today, CRT monitors were once ubiquitous in desktop computers. They
+     use a large vacuum tube to display images and were known for their deep
+     contrast and accurate color reproduction. However, CRT monitors are bulky
+     and consume more power compared to modern alternatives.</li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l13 level1 lfo19;
+     tab-stops:list .5in'><b>Touchscreen Monitor</b>: Touchscreen monitors
+     feature integrated touch-sensitive panels that allow users to interact
+     directly with the display by touching the screen. They are commonly used
+     in smartphones, tablets, point-of-sale systems, and interactive kiosks.</li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l13 level1 lfo19;
+     tab-stops:list .5in'><b>Curved Monitor</b>: Curved monitors have a gently
+     curved screen, providing a more immersive viewing experience by wrapping
+     the display around the user's field of vision. They are popular for gaming
+     and multimedia applications.</li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l13 level1 lfo19;
+     tab-stops:list .5in'><b>4K/Ultra High Definition (UHD) Monitor</b>: 4K
+     monitors offer a resolution of approximately 3840 x 2160 pixels, providing
+     incredibly sharp and detailed images. They are commonly used in
+     professional settings such as graphic design, video editing, and gaming.</li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l13 level1 lfo19;
+     tab-stops:list .5in'><b>High Dynamic Range (HDR) Monitor</b>: HDR monitors
+     support high dynamic range content, offering enhanced contrast, brighter
+     highlights, and a wider range of colors compared to standard displays.
+     They are popular for watching HDR videos and playing HDR-compatible games.</li>
+</ol>
+
+<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='text-align:justify'><b>Speakers<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Speakers are another essential
+output device that allows us to hear audio generated by digital systems.
+Whether it's listening to music, watching videos, or participating in online
+meetings, speakers play a crucial role in delivering clear and immersive sound.</p>
+
+<p class=MsoNormal style='text-align:justify'>When considering speakers, there
+are several factors to consider, such as audio quality, frequency response, and
+power output. Higher-quality speakers provide a more accurate representation of
+sound, while a wider frequency response ensures a more comprehensive range of
+audio frequencies. Power output determines the volume and clarity of sound
+produced by the speakers.</p>
+
+<p class=MsoNormal style='text-align:justify'>Speakers are used in a variety of
+settings, including homes, offices, theaters, and entertainment venues.
+Different applications may require different types of speakers, such as
+surround sound systems for home theaters or portable Bluetooth speakers for outdoor
+use. Understanding the features and applications of speakers can help users
+select the right option for their specific needs.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>Printers<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Printers are output devices that
+allow us to convert digital content into physical copies. They find
+applications in various fields, including document printing, photo printing,
+and 3D printing. When selecting a printer, factors such as print quality, printing
+speed, and connectivity options should be considered.</p>
+
+<p class=MsoNormal style='text-align:justify'>Print quality is determined by
+factors like resolution, color accuracy, and ink or toner type. Higher
+resolutions and color accuracy result in sharper and more vibrant prints.
+Printing speed is important, especially in office environments where large volumes
+of documents need to be printed. Connectivity options, such as wireless or
+Ethernet, enable easy printing from multiple devices.</p>
+
+<p class=MsoNormal style='text-align:justify'>Printers come in different types,
+including inkjet printers, laser printers, and 3D printers. Each type has its
+own advantages and applications. Inkjet printers are versatile and suitable for
+both text and photo printing. Laser printers are known for their fast printing
+speed and high-quality text output. 3D printers, on the other hand, allow for
+the creation of three-dimensional objects.</p>
+
+<p class=MsoNormal style='text-align:justify'>Understanding the features and
+applications of different types of printers can help users make informed
+decisions based on their printing needs.</p>
+
+<p class=MsoNormal style='text-align:justify'>In conclusion, output devices
+such as monitors, speakers, and printers play a crucial role in providing us
+with the information and results we need from digital systems. By understanding
+their features, functions, and applications, users can make informed decisions
+and select the right output devices for their specific needs.</p>
+
+<h2 style='text-align:justify'><a name="_Toc161590362">5. Projectors</a></h2>
+
+<h3 style='text-align:justify'><a name="_Toc161590363">5.1. Overview of
+projector technology and applications</a></h3>
+
+<p class=MsoNormal style='text-align:justify'><b>How do Projectors Work?<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Projectors are devices that
+display images or videos onto a screen or surface. They work by using a light
+source, typically a lamp or LED, to project an image onto a surface through a
+lens system. The image is created by passing light through a series of mirrors
+and lenses, which focus and enlarge the image onto the screen.</p>
+
+<p class=MsoNormal style='text-align:justify'>Projectors can be categorized
+into different types based on their technology, such as LCD (Liquid Crystal
+Display), DLP (Digital Light Processing), and <span class=SpellE>LCoS</span>
+(Liquid Crystal on Silicon). Each technology has its own advantages and
+considerations, which we will explore in more detail later in this chapter.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>Applications of Projectors<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Projectors have a wide range of
+applications in various industries. Let's take a look at some common uses:</p>
+
+<ol style='margin-top:0in' start=1 type=1>
+ <li class=MsoNormal style='text-align:justify;mso-list:l11 level1 lfo8;
+     tab-stops:list .5in'><b>Educational Institutions:</b>&nbsp;Projectors are
+     extensively used in classrooms and lecture halls to display educational
+     content, presentations, and videos. They enhance the learning experience
+     by making the information more visually engaging and interactive.</li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l11 level1 lfo8;
+     tab-stops:list .5in'><b>Business Presentations:</b>&nbsp;Projectors are a
+     staple in conference rooms and boardrooms for delivering professional
+     presentations. They allow for large-scale visualization of data, graphs,
+     and charts, making it easier for the audience to grasp complex
+     information.</li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l11 level1 lfo8;
+     tab-stops:list .5in'><b>Entertainment Industry:</b>&nbsp;Projectors are
+     widely used in cinemas, theaters, and live events to create immersive
+     visual experiences. They provide large-scale projections that enhance the
+     audience's viewing pleasure and bring movies, plays, and concerts to life.</li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l11 level1 lfo8;
+     tab-stops:list .5in'><b>Home Theaters:</b>&nbsp;Projectors have gained
+     popularity in home entertainment setups, offering a cinematic experience
+     within the comfort of your own home. They allow for large-screen viewing,
+     making movies and TV shows more enjoyable for the entire family.</li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l11 level1 lfo8;
+     tab-stops:list .5in'><b>Digital Signage:</b>&nbsp;Projectors are used for
+     creating dynamic and attention-grabbing displays in retail stores,
+     airports, and other public spaces. They can project advertisements,
+     announcements, and information onto large surfaces, attracting customers
+     and conveying messages effectively.</li>
+</ol>
+
+<p class=MsoNormal style='text-align:justify'>As you can see, projectors have
+become an integral part of our daily lives, revolutionizing the way we consume
+and interact with visual content. Understanding the technology behind
+projectors and their applications will empower you to harness their full
+potential and troubleshoot any issues that may arise.</p>
+
+<p class=MsoNormal style='text-align:justify'>Now that we have covered the
+basics of projectors, the next section will dive deeper into the different
+types of projector technologies and their advantages. So, let's continue our
+journey into the world of projectors!</p>
+
+<p class=MsoNormal style='text-align:justify'><b>Choosing the best projector<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Here are some considerations to
+help you choose the right projector:</p>
+
+<ol style='margin-top:0in' start=1 type=1>
+ <li class=MsoNormal style='text-align:justify;mso-list:l8 level1 lfo20;
+     tab-stops:list .5in'><b>Projector Type</b>:</li>
+ <ul style='margin-top:0in' type=disc>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo20;
+      tab-stops:list 1.0in'><b>Home Theater Projectors</b>: Designed for home
+      entertainment, these projectors typically offer high-resolution images,
+      enhanced color accuracy, and features like HDR support.</li>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo20;
+      tab-stops:list 1.0in'><b>Business/Office Projectors</b>: These projectors
+      are ideal for presentations in conference rooms or classrooms, focusing
+      on brightness, connectivity options, and ease of setup.</li>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo20;
+      tab-stops:list 1.0in'><b>Portable Projectors</b>: Compact and
+      lightweight, portable projectors are suitable for on-the-go
+      presentations, outdoor movie nights, or small meeting rooms.</li>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo20;
+      tab-stops:list 1.0in'><b>Gaming Projectors</b>: Gaming projectors offer
+      low input lag, high refresh rates, and features like Game Mode to enhance
+      the gaming experience.</li>
+ </ul>
+ <li class=MsoNormal style='text-align:justify;mso-list:l8 level1 lfo20;
+     tab-stops:list .5in'><b>Resolution</b>:</li>
+ <ul style='margin-top:0in' type=disc>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo20;
+      tab-stops:list 1.0in'>Choose a projector with a resolution that meets
+      your needs. Common resolutions include:</li>
+  <ul style='margin-top:0in' type=disc>
+   <li class=MsoNormal style='text-align:justify;mso-list:l8 level3 lfo20;
+       tab-stops:list 1.5in'>HD (1280x720 pixels)</li>
+   <li class=MsoNormal style='text-align:justify;mso-list:l8 level3 lfo20;
+       tab-stops:list 1.5in'>Full HD (1920x1080 pixels)</li>
+   <li class=MsoNormal style='text-align:justify;mso-list:l8 level3 lfo20;
+       tab-stops:list 1.5in'>4K UHD (3840x2160 pixels)</li>
+  </ul>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo20;
+      tab-stops:list 1.0in'>Higher resolutions provide sharper and more
+      detailed images, especially for larger screen sizes.</li>
+ </ul>
+ <li class=MsoNormal style='text-align:justify;mso-list:l8 level1 lfo20;
+     tab-stops:list .5in'><b>Brightness (Lumens)</b>:</li>
+ <ul style='margin-top:0in' type=disc>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo20;
+      tab-stops:list 1.0in'>Consider the ambient lighting conditions in the
+      room where you'll use the projector. Higher lumens are necessary for
+      rooms with more ambient light.</li>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo20;
+      tab-stops:list 1.0in'>For home theaters or dark rooms, a projector with
+      lower lumens may suffice, while brighter projectors are needed for
+      well-lit environments or outdoor use.</li>
+ </ul>
+ <li class=MsoNormal style='text-align:justify;mso-list:l8 level1 lfo20;
+     tab-stops:list .5in'><b>Contrast Ratio</b>:</li>
+ <ul style='margin-top:0in' type=disc>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo20;
+      tab-stops:list 1.0in'>A higher contrast ratio results in deeper blacks
+      and brighter whites, enhancing image quality and detail.</li>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo20;
+      tab-stops:list 1.0in'>Look for projectors with high native contrast
+      ratios for better image reproduction, especially in dark scenes.</li>
+ </ul>
+ <li class=MsoNormal style='text-align:justify;mso-list:l8 level1 lfo20;
+     tab-stops:list .5in'><b>Throw Distance and Screen Size</b>:</li>
+ <ul style='margin-top:0in' type=disc>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo20;
+      tab-stops:list 1.0in'>Determine the throw distance (distance from the
+      projector to the screen) required for your setup.</li>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo20;
+      tab-stops:list 1.0in'>Consider the projector's zoom and lens shift
+      capabilities if you need flexibility in positioning the projector.</li>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo20;
+      tab-stops:list 1.0in'>Ensure the projector can achieve the desired screen
+      size within your room's dimensions.</li>
+ </ul>
+ <li class=MsoNormal style='text-align:justify;mso-list:l8 level1 lfo20;
+     tab-stops:list .5in'><b>Connectivity Options</b>:</li>
+ <ul style='margin-top:0in' type=disc>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo20;
+      tab-stops:list 1.0in'>Ensure the projector has the necessary ports to
+      connect your devices, such as HDMI, VGA, USB, and audio outputs.</li>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo20;
+      tab-stops:list 1.0in'>Wireless connectivity options (Wi-Fi, Bluetooth)
+      can offer convenient connectivity with smartphones, tablets, and laptops.</li>
+ </ul>
+ <li class=MsoNormal style='text-align:justify;mso-list:l8 level1 lfo20;
+     tab-stops:list .5in'><b>Additional Features</b>:</li>
+ <ul style='margin-top:0in' type=disc>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo20;
+      tab-stops:list 1.0in'>Keystone correction: Corrects image distortion
+      caused by angled projection.</li>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo20;
+      tab-stops:list 1.0in'>Lens shift: Allows adjustment of the projected
+      image without physically moving the projector.</li>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo20;
+      tab-stops:list 1.0in'>Built-in speakers: Convenient for casual use, but
+      external speakers may offer better sound quality.</li>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo20;
+      tab-stops:list 1.0in'>3D support: If you plan to watch 3D content, ensure
+      the projector supports it.</li>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo20;
+      tab-stops:list 1.0in'>Smart features: Some projectors offer built-in
+      streaming apps, screen mirroring, and voice control.</li>
+ </ul>
+ <li class=MsoNormal style='text-align:justify;mso-list:l8 level1 lfo20;
+     tab-stops:list .5in'><b>Brand Reputation and Warranty</b>:</li>
+ <ul style='margin-top:0in' type=disc>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo20;
+      tab-stops:list 1.0in'>Consider the reputation and reliability of the
+      projector's brand.</li>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo20;
+      tab-stops:list 1.0in'>Check the warranty coverage and after-sales support
+      offered by the manufacturer.</li>
+ </ul>
+ <li class=MsoNormal style='text-align:justify;mso-list:l8 level1 lfo20;
+     tab-stops:list .5in'><b>Budget</b>:</li>
+ <ul style='margin-top:0in' type=disc>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo20;
+      tab-stops:list 1.0in'>Set a budget based on your requirements and
+      prioritize features accordingly.</li>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo20;
+      tab-stops:list 1.0in'>Compare prices and features across different models
+      to find the best value for your money.</li>
+ </ul>
+</ol>
+
+<h2><a name="_Toc161590364">6. Digital Display Security and Privacy</a></h2>
+
+<h3><a name="_Toc161590365">6.1. Understanding security risks associated with
+digital displays</a></h3>
+
+<p class=MsoNormal style='text-align:justify'><b>Understanding Security Risks
+Associated with Digital Displays<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>As we continue our exploration of
+digital display technologies, it is important to also consider the security
+risks that are associated with these devices. In today's interconnected world,
+where information is constantly being transmitted and shared, it is crucial to
+understand the potential vulnerabilities that digital displays can present.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>The Importance of Digital
+Display Security<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Digital displays are often used
+to present sensitive information, whether it be in a corporate setting,
+educational institution, or public space. This information can range from
+confidential business data to personal details of individuals. Therefore, it is
+essential to ensure that these displays are secure and protected from
+unauthorized access.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>Potential Security Risks<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>One of the main security risks
+associated with digital displays is the possibility of unauthorized access to
+the displayed content. This can occur through various means, such as hacking
+into the network that the display is connected to or physically tampering with
+the display itself. Once access is gained, sensitive information can be
+intercepted, modified, or even deleted.</p>
+
+<p class=MsoNormal style='text-align:justify'>Another security risk is the
+potential for malware or viruses to be introduced to the display system. These
+malicious software programs can exploit vulnerabilities in the display's
+operating system or software, leading to unauthorized access, data breaches, or
+system malfunctions.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>Protecting Digital Displays<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>To mitigate these security risks,
+there are several measures that can be taken:</p>
+
+<ol style='margin-top:0in' start=1 type=1>
+ <li class=MsoNormal style='text-align:justify;mso-list:l14 level1 lfo18;
+     tab-stops:list .5in'><b>Secure Network Infrastructure:</b>&nbsp;Ensure
+     that the network infrastructure that the digital display is connected to
+     is properly secured. This includes using strong passwords, implementing
+     firewalls, and regularly updating network security protocols.</li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l14 level1 lfo18;
+     tab-stops:list .5in'><b>Physical Security:</b>&nbsp;Protect the physical
+     integrity of the digital display by installing it in a secure location and
+     implementing access controls. This can include using locks or security
+     cameras to monitor the display area.</li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l14 level1 lfo18;
+     tab-stops:list .5in'><b>Software Security:</b>&nbsp;Keep the display's
+     operating system and software up to date with the latest security patches
+     and updates. Regularly scan the system for malware and viruses, and use
+     reputable antivirus software.</li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l14 level1 lfo18;
+     tab-stops:list .5in'><b>User Education:</b>&nbsp;Educate users on best
+     practices for using digital displays securely. This can include training
+     on password management, recognizing phishing attempts, and reporting any
+     suspicious activity.</li>
+</ol>
+
+<p class=MsoNormal style='text-align:justify'><b><o:p>&nbsp;</o:p></b></p>
+
+<h2><a name="_Toc161590366">7. Future Trends in Digital Interfaces and Display
+Technologies</a></h2>
+
+<h3><a name="_Toc161590367">7.1. Exploring the advancements in digital
+interfaces</a></h3>
+
+<p class=MsoNormal style='text-align:justify'>As technology continues to evolve
+at a rapid pace, so do digital interfaces. In this section, we will explore
+some of the advancements in digital interfaces and how they are shaping the
+future of technology.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>1. Gesture Recognition<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>One of the most exciting
+advancements in digital interfaces is gesture recognition. This technology
+allows users to interact with digital systems using hand and body movements.
+Instead of relying solely on traditional input devices like keyboards and mice,
+users can now control devices through intuitive gestures.</p>
+
+<p class=MsoNormal style='text-align:justify'>Gesture recognition has found
+applications in various industries, including gaming, healthcare, and
+automotive. For example, in gaming, players can control characters and navigate
+through virtual environments by simply moving their hands or bodies. In healthcare,
+gesture recognition can be used in rehabilitation exercises to track and
+analyze patients' movements. In the automotive industry, gesture recognition
+can enhance driver safety by allowing them to control infotainment systems
+without taking their hands off the steering wheel.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>2. Voice Control<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Voice control is another
+significant advancement in digital interfaces. With the rise of virtual
+assistants like Siri, Alexa, and Google Assistant, voice control has become
+increasingly prevalent in our everyday lives. Users can now perform various
+tasks by simply speaking commands to their devices.</p>
+
+<p class=MsoNormal style='text-align:justify'>Voice control has revolutionized
+the way we interact with technology, making it more accessible and
+user-friendly. It allows users to perform tasks hands-free, which is especially
+beneficial in situations where manual input is not possible or convenient.
+Voice control has also found applications in smart homes, where users can
+control lighting, temperature, and other devices using voice commands.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>3. Augmented Reality (AR) and
+Virtual Reality (VR)<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Augmented reality and virtual
+reality are immersive technologies that have gained significant traction in
+recent years. These technologies provide users with unique and interactive
+experiences by overlaying digital content onto the real world (AR) or creating
+entirely virtual environments (VR).</p>
+
+<p class=MsoNormal style='text-align:justify'>AR and VR have the potential to
+transform various industries, including education, entertainment, and
+healthcare. In education, AR can be used to enhance learning by providing
+interactive and engaging content. In entertainment, VR can transport users to virtual
+worlds, allowing them to experience games, movies, and other media in a whole
+new way. In healthcare, AR and VR can be used for training medical
+professionals, simulating surgeries, and assisting <span class=SpellE>in
+patient</span> rehabilitation.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>4. Haptic Feedback<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Haptic feedback technology
+provides users with tactile sensations through vibrations or other physical
+feedback. This technology enhances the user experience by adding a sense of
+touch to digital interfaces.</p>
+
+<p class=MsoNormal style='text-align:justify'>Haptic feedback has applications
+in various industries, including gaming, virtual reality, and healthcare. In
+gaming, haptic feedback can provide users with a more immersive experience by
+simulating physical sensations like vibrations and impacts. In virtual reality,
+haptic feedback can enhance the sense of presence by providing tactile feedback
+when interacting with virtual objects. In healthcare, haptic feedback can be
+used in robotic surgery systems to provide surgeons with a sense of touch
+during procedures.</p>
+
+<p class=MsoNormal style='text-align:justify'>These advancements in digital
+interfaces are just the tip of the iceberg. As technology continues to advance,
+we can expect even more innovative and exciting developments in the future.
+Understanding these advancements is crucial for anyone looking to stay ahead in
+the rapidly evolving world of digital interfaces and display technologies.</p>
+
+<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+
+<h3><a name="_Toc161590368">7.2. Predicting future trends in display
+technologies</a></h3>
+
+<p class=MsoNormal style='text-align:justify'><b>Predicting Future Trends in
+Display Technologies<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>As technology continues to
+advance at a rapid pace, it is important to stay informed about the future
+trends in display technologies. These advancements have the potential to
+revolutionize the way we interact with digital interfaces and consume
+information. In this section, we will explore some of the exciting developments
+that are expected to shape the future of display technologies.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>1. Flexible Displays<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>One of the most anticipated
+advancements in display technologies is the development of flexible displays.
+These displays are made from flexible materials, such as OLED (Organic Light
+Emitting Diode), which allows them to be bent, rolled, or folded without losing
+their functionality. Flexible displays have the potential to be used in a wide
+range of applications, from wearable devices and foldable smartphones to curved
+televisions and smart furniture. The ability to bend or fold a display opens up
+new possibilities for design and user experience.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>2. Transparent Displays<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Another exciting trend in display
+technologies is the development of transparent displays. These displays allow
+users to see through the screen while still displaying relevant information.
+Transparent displays have the potential to be used in a variety of
+applications, such as augmented reality (AR) glasses, heads-up displays in
+vehicles, and interactive shop windows. By seamlessly integrating digital
+information with the real world, transparent displays have the potential to
+enhance our daily lives and create immersive experiences.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>3. Holographic Displays<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Holographic displays have long
+been a staple of science fiction, but recent advancements in display
+technologies are bringing them closer to reality. Holographic displays use
+light diffraction to create three-dimensional images that appear to float in mid-air.
+These displays have the potential to revolutionize industries such as gaming,
+entertainment, and education. Imagine being able to interact with lifelike
+holograms in your living room or attending a virtual concert with holographic
+performers. While holographic displays are still in the early stages of
+development, they hold great promise for the future.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>4. Ultra-High Resolution
+Displays<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>As display technologies advance,
+we can expect to see an increase in the resolution of displays. Ultra-high
+resolution displays, such as 8K and beyond, offer incredibly sharp and detailed
+images. These displays are already being used in industries such as
+professional photography, video production, and medical imaging. As they become
+more affordable and accessible, ultra-high resolution displays have the
+potential to transform the way we consume and create visual content.</p>
+
+<p class=MsoNormal style='text-align:justify'>In conclusion, the future of
+display technologies looks incredibly promising. From flexible and transparent
+displays to holographic and ultra-high resolution displays, these advancements
+have the potential to revolutionize the way we interact with digital interfaces
+and consume information. By staying informed about these future trends, we can
+prepare ourselves for the exciting possibilities that lie ahead.</p>
+
+<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+
+<h3><a name="_Toc161590369">7.3. Discussing the potential impact of augmented
+reality (AR) and virtual reality (VR)</a></h3>
+
+<p class=MsoNormal style='text-align:justify'><b>Discussing the Potential
+Impact of Augmented Reality (AR) and Virtual Reality (VR)<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-align:justify'>In recent years, augmented
+reality (AR) and virtual reality (VR) have emerged as two of the most exciting
+and promising technologies in the field of digital interfaces and display
+technologies. These technologies have the potential to revolutionize various
+industries and transform the way we interact with digital content.</p>
+
+<p class=MsoNormal style='text-align:justify'>Augmented reality (AR) refers to
+the integration of digital information and virtual objects into the real world,
+enhancing our perception and interaction with the physical environment. By
+overlaying digital content onto the real world through devices like smartphones
+or AR glasses, AR provides users with an immersive and interactive experience.
+This technology has already found applications in fields such as gaming,
+education, healthcare, and retail. For example, AR can be used to create
+interactive educational experiences, allowing students to visualize complex
+concepts in a more engaging and interactive way.</p>
+
+<p class=MsoNormal style='text-align:justify'>On the other hand, virtual
+reality (VR) creates a completely immersive digital environment that simulates
+a realistic experience. By wearing a VR headset, users are transported to a
+virtual world where they can interact with digital objects and environments. VR
+has gained significant popularity in the gaming industry, enabling players to
+fully immerse themselves in virtual worlds and have a more immersive gaming
+experience. However, the potential applications of VR extend beyond gaming.
+Industries such as architecture, engineering, and healthcare are exploring the
+use of VR for training, simulation, and visualization purposes.</p>
+
+<p class=MsoNormal style='text-align:justify'>The impact of AR and VR on
+various industries is expected to be significant. These technologies have the
+potential to enhance productivity, improve learning outcomes, revolutionize
+entertainment experiences, and transform the way we communicate and collaborate.
+For example, in the healthcare industry, AR and VR can be used for surgical
+simulations, remote consultations, and patient education. In the retail
+industry, AR can enable customers to try on virtual clothing or visualize
+furniture in their homes before making a purchase.</p>
+
+<p class=MsoNormal style='text-align:justify'>As AR and VR technologies
+continue to evolve and become more accessible, it is important for
+professionals in various fields to stay updated and explore the potential
+applications of these technologies. By embracing AR and VR, industries can
+unlock new opportunities for innovation and create more immersive and engaging
+experiences for their customers.</p>
+
+<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='margin-bottom:0in'><b>Remark: </b>The instructor has
+employed AI-generated content models to create this material, adapting to the
+swiftly evolving landscape of technologies and ensuring its continuous relevance.
+As a result, the content itself is not protected by copyright.</p>
+
+<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+
+</div><br>
+
+<a href="section9.htm"><button class="button">Previous</button></a>
+
+<a style="float: right;" href="section11.htm"><button class="button">Next</button></a>
+</body>
+
+</html>
